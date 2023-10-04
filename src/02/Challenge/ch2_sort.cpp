@@ -17,6 +17,12 @@
 bool sort_array(int *arr, int n){
 
     // Write your code here
+    if (arr == NULL)
+        return false;
+    if (n<2)
+        return true;
+
+    
 
     return false;
 }
